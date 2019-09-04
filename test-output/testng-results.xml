@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="896" started-at="2019-09-04T00:17:09Z" finished-at="2019-09-04T00:17:10Z">
+  <suite name="Default suite" duration-ms="850" started-at="2019-09-04T00:37:08Z" finished-at="2019-09-04T00:37:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="896" started-at="2019-09-04T00:17:09Z" finished-at="2019-09-04T00:17:10Z">
+    <test name="PostcodCase" duration-ms="850" started-at="2019-09-04T00:37:08Z" finished-at="2019-09-04T00:37:09Z">
       <class name="com.lemon.api.auto.PostcodeCase2">
-        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="413" started-at="2019-09-04T00:17:09Z" data-provider="datas" finished-at="2019-09-04T00:17:10Z">
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="388" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postDemo -->
-        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="88" started-at="2019-09-04T00:17:10Z" data-provider="datas" finished-at="2019-09-04T00:17:10Z">
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="91" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postDemo -->
-        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="135" started-at="2019-09-04T00:17:10Z" data-provider="datas" finished-at="2019-09-04T00:17:10Z">
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="103" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postDemo -->
-        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="97" started-at="2019-09-04T00:17:10Z" data-provider="datas" finished-at="2019-09-04T00:17:10Z">
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="110" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postDemo -->
-        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="117" started-at="2019-09-04T00:17:10Z" data-provider="datas" finished-at="2019-09-04T00:17:10Z">
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="114" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[000000]]>
+                <![CDATA[234412]]>
               </value>
             </param>
             <param index="1">
@@ -88,6 +88,6 @@
           </reporter-output>
         </test-method> <!-- postDemo -->
       </class> <!-- com.lemon.api.auto.PostcodeCase2 -->
-    </test> <!-- Default test -->
+    </test> <!-- PostcodCase -->
   </suite> <!-- Default suite -->
 </testng-results>

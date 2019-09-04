@@ -26,8 +26,11 @@ public class PostcodeCase2 {
 
 	@DataProvider(name = "datas")
 	public static Object[][] datas() {
-		return new Object[][] { { "052560", "cff415c31035d637e53dba7ecaa3ae9e" }, { "052560", "" },
-				{ "", "cff415c31035d637e53dba7ecaa3ae9e" }, { "052560", "cff415c31035d" },
-				{ "000000", "cff415c31035d637e53dba7ecaa3ae9e" } };
+		return new Object[][] { 
+			{ "052560", "cff415c31035d637e53dba7ecaa3ae9e" }, 
+			{ "052560", "" },
+			{ "", "cff415c31035d637e53dba7ecaa3ae9e" }, 
+			{ "052560", "cff415c31035d" },
+			{ "234412", "cff415c31035d637e53dba7ecaa3ae9e" } };
 	}
 }
