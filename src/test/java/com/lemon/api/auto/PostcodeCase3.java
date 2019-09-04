@@ -6,7 +6,7 @@ import java.util.Map;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class PostcodeCase2 {
+public class PostcodeCase3 {
 
 	/**
 	 * postcode:正确 key：正确
