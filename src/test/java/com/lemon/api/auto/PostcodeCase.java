@@ -78,4 +78,23 @@ public class PostcodeCase {
 		String result = HttpUtil.doPost(url, params);
 		System.out.println(result);
 	}
+	
+	/**
+	 * 仅供git测试用
+	 * postcode:正确 key：长度不够
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	public static void postDemo4() throws Exception {
+		// 填写接口地址
+		String url = "http://v.juhe.cn/postcode/query";
+		String postcode = "052560";
+		String key = "cff415c31035d637e";
+		Map<String, String> params = new HashMap<String, String>();
+		params.put("postcode", postcode);
+		params.put("key", key);
+		String result = HttpUtil.doPost(url, params);
+		System.out.println(result);
+	}
 }
