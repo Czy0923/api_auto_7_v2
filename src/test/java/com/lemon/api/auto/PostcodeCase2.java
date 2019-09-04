@@ -31,6 +31,7 @@ public class PostcodeCase2 {
 			{ "052560", "" },
 			{ "", "cff415c31035d637e53dba7ecaa3ae9e" }, 
 			{ "052560", "cff415c31035d" },
-			{ "234412", "cff415c31035d637e53dba7ecaa3ae9e" } };
+			{ "234412", "cff415c31035d637e53dba7ecaa3ae9e" },
+			{ "AAAAAA", "cff415c31035d637e53dba7ecaa3ae9e" }};
 	}
 }
