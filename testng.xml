@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Default suite">
 	<test thread-count="5" verbose="2" name="PostcodCase">
 		<classes>
-			<class name="com.lemon.api.auto.PostcodeCase" />
+			<class name="com.lemon.api.auto.PostcodeCase2" />
 		</classes>
 	</test>
 </suite> 

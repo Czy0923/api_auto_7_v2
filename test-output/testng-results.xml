@@ -1,29 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="886" started-at="2019-09-03T23:57:33Z" finished-at="2019-09-03T23:57:34Z">
+  <suite name="Default suite" duration-ms="850" started-at="2019-09-04T00:37:08Z" finished-at="2019-09-04T00:37:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="886" started-at="2019-09-03T23:57:33Z" finished-at="2019-09-03T23:57:34Z">
-      <class name="com.lemon.api.auto.PostcodeCase">
-        <test-method status="PASS" signature="postDemo0()[pri:0, instance:com.lemon.api.auto.PostcodeCase@d2cc05a]" name="postDemo0" duration-ms="514" started-at="2019-09-03T23:57:33Z" finished-at="2019-09-03T23:57:33Z">
+    <test name="PostcodCase" duration-ms="850" started-at="2019-09-04T00:37:08Z" finished-at="2019-09-04T00:37:09Z">
+      <class name="com.lemon.api.auto.PostcodeCase2">
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="388" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[052560]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cff415c31035d637e53dba7ecaa3ae9e]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postDemo0 -->
-        <test-method status="PASS" signature="postDemo1()[pri:0, instance:com.lemon.api.auto.PostcodeCase@d2cc05a]" name="postDemo1" duration-ms="125" started-at="2019-09-03T23:57:33Z" finished-at="2019-09-03T23:57:33Z">
+        </test-method> <!-- postDemo -->
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="91" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[052560]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postDemo1 -->
-        <test-method status="PASS" signature="postDemo2()[pri:0, instance:com.lemon.api.auto.PostcodeCase@d2cc05a]" name="postDemo2" duration-ms="82" started-at="2019-09-03T23:57:33Z" finished-at="2019-09-03T23:57:34Z">
+        </test-method> <!-- postDemo -->
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="103" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cff415c31035d637e53dba7ecaa3ae9e]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postDemo2 -->
-        <test-method status="PASS" signature="postDemo3()[pri:0, instance:com.lemon.api.auto.PostcodeCase@d2cc05a]" name="postDemo3" duration-ms="113" started-at="2019-09-03T23:57:34Z" finished-at="2019-09-03T23:57:34Z">
+        </test-method> <!-- postDemo -->
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="110" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[052560]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cff415c31035d]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postDemo3 -->
-      </class> <!-- com.lemon.api.auto.PostcodeCase -->
-    </test> <!-- Default test -->
+        </test-method> <!-- postDemo -->
+        <test-method status="PASS" signature="postDemo(java.lang.String, java.lang.String)[pri:0, instance:com.lemon.api.auto.PostcodeCase2@548a9f61]" name="postDemo" duration-ms="114" started-at="2019-09-04T00:37:08Z" data-provider="datas" finished-at="2019-09-04T00:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234412]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cff415c31035d637e53dba7ecaa3ae9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDemo -->
+      </class> <!-- com.lemon.api.auto.PostcodeCase2 -->
+    </test> <!-- PostcodCase -->
   </suite> <!-- Default suite -->
 </testng-results>

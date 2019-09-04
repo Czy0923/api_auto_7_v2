@@ -5,7 +5,7 @@ import java.util.Map;
 
 import org.testng.annotations.Test;
 
-public class PostcodeCase {
+public class PostcodeCase1 {
 
 	/**
 	 * postcode:正确 key：正确
