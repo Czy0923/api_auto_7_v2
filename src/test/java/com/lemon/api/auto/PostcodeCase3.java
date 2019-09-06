@@ -24,13 +24,15 @@ public class PostcodeCase3 {
 		System.out.println("返回数据是:" + result);
 	}
 
+	@Test
+	public static void getExcelData() {
+		ExcelUtil.datas();
+	}
+
 	@DataProvider(name = "datas")
 	public static Object[][] datas() {
-		return new Object[][] { 
-			{ "052560", "cff415c31035d637e53dba7ecaa3ae9e" }, 
-			{ "052560", "" },
-			{ "", "cff415c31035d637e53dba7ecaa3ae9e" }, 
-			{ "052560", "cff415c31035d" },
-			{ "234412", "cff415c31035d637e53dba7ecaa3ae9e" },};
+		return new Object[][] { { "052560", "cff415c31035d637e53dba7ecaa3ae9e" }, { "052560", "" },
+				{ "", "cff415c31035d637e53dba7ecaa3ae9e" }, { "052560", "cff415c31035d" },
+				{ "234412", "cff415c31035d637e53dba7ecaa3ae9e" }, };
 	}
 }
